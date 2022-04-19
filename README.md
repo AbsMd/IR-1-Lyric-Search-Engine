@@ -1,6 +1,5 @@
 # IR-1-Search-Engine-for-song-lyrics-
 IR Assignment 1
-Lyric Search Engine
 
 CS F469 - Information Retrieval 
 
@@ -18,7 +17,7 @@ Working Model:
 The search engine can be started by running main.py.
 The entire corpus is preprocessed and the tf-idf Table is produced.
 Enter the words or phrases in lyrics you want to search for.
-After each search, the top 10 documents that matches with the query are displayed.
+After each search, the top 10 documents that matches with the query will be displayed.
 The results will be random if the searched words are not present in any document in the corpus.
 On clicking the Document, one can view the entire document with details like 'artists' etc.
 
@@ -27,3 +26,4 @@ To run the following code, Flask and nltk have to be readily installed.
 
 Flask can be installed by following the documentation in the below link. https://linuxize.com/post/how-to-install-flask-on-ubuntu-18-04/
 ntlk can be installed using ‘ntlk.download()’ in a python shell or in the program.
+(This is a collaborative team work in which the UI has been handled by a teammate)
